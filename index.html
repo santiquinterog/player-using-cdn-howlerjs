@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player with Howler JS</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  
+  <!-- Iconos tomados de Flaticon -->
+  <div class="container-btns">
+    <img src="assets/img/play-button.png" alt="Play button" id="btn_play" class="btn">
+    <img src="assets/img/pause-button.png" alt="Pause button" id="btn_pause" class="btn hidden">
+
+    <div class="container-btns-previous-next">
+      <img src="assets/img/previous-button.png" alt="Previous button" id="btn_previous" class="btn">
+      <img src="assets/img/next-button.png" alt="Next button" id="btn_next" class="btn">
+    </div>
+  </div>
+
+  <label for="control_volumen">
+    <span>Volumen</span> <input type="range" id="control_volumen" class="drag__bar" value="0.4" min="0" max="1" step="0.1">
+  </label>
+
+</body>
+</html>
