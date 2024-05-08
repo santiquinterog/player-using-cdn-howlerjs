@@ -1,0 +1,47 @@
+.hidden {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 80px;
+  margin: 10px;
+  opacity: 0.6;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+.container-btns-previous-next {
+  display: flex;
+  margin: 15px 0px;
+}
+
+span {
+  color: red;
+  font-size: 20px;
+}
+
+span, input {
+  cursor: pointer;
+}
+
+.drag-bar {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 40%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  outline: none;
+  opacity: 0.6;
+}
+
+.drag-bar:hover {
+  opacity: 1;
+}
